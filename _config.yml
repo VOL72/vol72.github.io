@@ -103,7 +103,7 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/VOL72/vol72.github.io.git
+  repo:  https://github.com/VOL72/vol72.github.io
   branch: master # 默认使用 master 分支
   message: Update Hexo Static Content # 你可以自定义此次部署更新的说明
    
