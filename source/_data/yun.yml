@@ -1,0 +1,4 @@
+avatar:
+  url: /images/avatar.jpg # 头像图片地址
+  rounded: true
+  opacity: 1
