@@ -2,3 +2,23 @@ avatar:
   url: /images/avatar.jpg # 头像图片地址
   rounded: true
   opacity: 1
+
+bg_image:
+  enable: true
+  url: /Blogweb/vol72.github.io/source/images/bg_image.jpg
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+
+fireworks:
+  enable: true
+  colors:
+    - "102, 167, 221"
+    - "62, 131, 225"
+    - "33, 78, 194"
+
+cursor:
+  enable: false
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
