@@ -3,22 +3,71 @@ avatar:
   rounded: true
   opacity: 1
 
+
 bg_image:
   enable: true
-  url: /Blogweb/vol72.github.io/source/images/bg_image.jpg
-  # dark:
-  # blur: 30px # 设置背景模糊程度
-  opacity: 0.8
+  url: /images/bg1.jpg # recomend image related to your mode
+  dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
+  # blur: 30px
+  opacity: 1
 
-fireworks:
-  enable: true
-  colors:
-    - "102, 167, 221"
-    - "62, 131, 225"
-    - "33, 78, 194"
-
-cursor:
-  enable: false
-  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
-  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
-  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: 
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: 
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 豆瓣
+    link: https://www.douban.com/
+    icon: icon-douban-line
+    color: "#007722"
+  - name: 网易云音乐
+    link: https://music.163.com/
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 知乎
+    link: https://www.zhihu.com/
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/8384158
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: 微信
+    link: 
+    icon: icon-wechat-2-line
+    color: "#1AAD19"
+  - name: Twitter
+    link: https://twitter.com/
+    icon: icon-twitter-line
+    color: "#1da1f2"
+  - name: Telegram
+    link: https://t.me/
+    icon: icon-telegram-line
+    color: "#0088CC"
+  - name: Telegram Channel
+    link: 
+    icon: icon-telegram-fill
+    color: "#0088CC"
+  - name: Travelling
+    link: 
+    icon: icon-send-plane-2-line
+    color: black
