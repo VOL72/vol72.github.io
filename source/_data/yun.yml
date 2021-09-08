@@ -9,7 +9,19 @@ bg_image:
   url: /images/bg1.jpg # recomend image related to your mode
   dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
   # blur: 30px
-  opacity: 1
+  opacity: 0.75
+
+banner:
+  enable: true
+  title: 圆环之理
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
 
 social:
   - name: RSS
