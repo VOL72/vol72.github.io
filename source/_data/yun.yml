@@ -6,7 +6,7 @@ avatar:
 
 bg_image:
   enable: true
-  url: /images/bg1.jpg # recomend image related to your mode
+  url: /images/test/1.png # recomend image related to your mode
   dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
   # blur: 30px
   opacity: 0.75
