@@ -9,7 +9,7 @@ bg_image:
   url: /images/test/1.png # recomend image related to your mode
   dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
   # blur: 30px
-  opacity: 0.75
+  opacity: 1
 
 banner:
   enable: true
